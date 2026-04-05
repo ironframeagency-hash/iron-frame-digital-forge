@@ -26,7 +26,7 @@ const Contact = () => {
               LET'S BUILD YOUR<br />ONLINE PRESENCE
             </h1>
             <p className="text-muted-foreground text-lg">
-              Fill out the form below and we'll get back to you within 24 hours with a free website demo concept.
+              Fill out the form below and we'll get back to you within 24 hours to schedule a meeting.
             </p>
           </div>
 

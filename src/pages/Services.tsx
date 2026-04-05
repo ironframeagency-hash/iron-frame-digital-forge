@@ -69,7 +69,7 @@ const Services = () => (
           Fast turnaround, simple process, no tech headaches. Get started today.
         </p>
         <Link to="/contact" className="inline-flex items-center gap-2 bg-background text-foreground font-heading tracking-wider px-8 py-4 text-lg hover:bg-foreground hover:text-background transition-colors">
-          GET YOUR FREE DEMO <ArrowRight size={20} />
+          BOOK A MEETING <ArrowRight size={20} />
         </Link>
       </div>
     </section>
