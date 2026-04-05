@@ -58,14 +58,10 @@ const Contact = () => {
             </button>
           </form>
 
-          <div className="mt-12 pt-8 border-t border-border grid grid-cols-1 sm:grid-cols-2 gap-6 text-center">
+          <div className="mt-12 pt-8 border-t border-border text-center">
             <div>
               <p className="font-heading text-sm tracking-wider text-foreground mb-1">EMAIL</p>
               <p className="text-muted-foreground text-sm">info@ironframeagency.com</p>
-            </div>
-            <div>
-              <p className="font-heading text-sm tracking-wider text-foreground mb-1">PHONE</p>
-              <p className="text-muted-foreground text-sm">(555) 123-4567</p>
             </div>
           </div>
         </div>
