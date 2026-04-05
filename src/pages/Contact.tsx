@@ -54,7 +54,7 @@ const Contact = () => {
               disabled={submitting}
               className="w-full bg-primary text-primary-foreground font-heading tracking-wider text-lg py-4 hover:bg-primary/90 transition-colors disabled:opacity-50"
             >
-              {submitting ? "SENDING..." : "GET YOUR FREE DEMO"}
+              {submitting ? "SENDING..." : "CONTACT"}
             </button>
           </form>
 
