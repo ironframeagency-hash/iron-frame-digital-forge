@@ -25,7 +25,7 @@ const Index = () => (
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link to="/contact" className="bg-primary text-primary-foreground font-heading tracking-wider text-center px-8 py-4 text-lg hover:bg-primary/90 transition-colors">
-              GET YOUR FREE DEMO
+              BOOK A MEETING
             </Link>
             <Link to="/services" className="border border-border text-foreground font-heading tracking-wider text-center px-8 py-4 text-lg hover:border-primary hover:text-primary transition-colors">
               OUR SERVICES
@@ -119,13 +119,13 @@ const Index = () => (
           READY TO LOOK AS<br />PROFESSIONAL ONLINE<br />AS YOU ARE ON THE JOB?
         </h2>
         <p className="text-primary-foreground/80 text-lg max-w-xl mx-auto mb-8">
-          Get a free website demo — no commitment, no tech headaches. See exactly what your new site could look like.
+          No commitment, no tech headaches. Let's talk about what your new site could look like.
         </p>
         <Link
           to="/contact"
           className="inline-flex items-center gap-2 bg-background text-foreground font-heading tracking-wider px-8 py-4 text-lg hover:bg-foreground hover:text-background transition-colors"
         >
-          GET YOUR FREE DEMO <ArrowRight size={20} />
+          CONTACT US <ArrowRight size={20} />
         </Link>
       </div>
     </section>
