@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { ArrowRight, Target, Zap, Shield } from "lucide-react";
-import aboutImg from "@/assets/about-contractor.jpg";
+import aboutImg from "@/assets/about-roofer.jpg";
 import Layout from "@/components/Layout";
 
 const About = () => (
