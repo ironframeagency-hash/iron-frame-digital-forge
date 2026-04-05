@@ -37,7 +37,7 @@ const Navbar = () => {
             to="/contact"
             className="bg-primary text-primary-foreground font-heading text-sm tracking-wider px-5 py-2.5 hover:bg-primary/90 transition-colors"
           >
-            GET A QUOTE
+            BOOK A MEETING
           </Link>
         </div>
 
@@ -68,7 +68,7 @@ const Navbar = () => {
               onClick={() => setOpen(false)}
               className="bg-primary text-primary-foreground font-heading text-center tracking-wider px-5 py-3 mt-2"
             >
-              GET A QUOTE
+              BOOK A MEETING
             </Link>
           </div>
         </div>
