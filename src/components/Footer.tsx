@@ -1,13 +1,12 @@
 import { Link } from "react-router-dom";
+import logo from "@/assets/logo.png";
 
 const Footer = () => (
   <footer className="bg-card border-t border-border">
     <div className="container py-12 md:py-16">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
         <div>
-          <h3 className="font-heading text-xl font-bold text-foreground mb-4">
-            IRON<span className="text-primary">FRAME</span>
-          </h3>
+          <img src={logo} alt="Iron Frame Agency" className="h-12 w-auto mb-4" />
           <p className="text-muted-foreground text-sm leading-relaxed">
             We build powerful websites for contractors and construction businesses. No fluff. Just results.
           </p>
