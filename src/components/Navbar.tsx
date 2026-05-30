@@ -37,6 +37,13 @@ const Navbar = () => {
               {link.label}
             </Link>
           ))}
+          <a
+            href={PHONE_HREF}
+            className="bg-primary text-primary-foreground font-heading text-sm tracking-wider px-5 py-2.5 hover:bg-primary/90 transition-colors inline-flex items-center gap-2"
+          >
+            <Phone size={16} />
+            {PHONE_DISPLAY}
+          </a>
           <Link
             to="/contact"
             className="bg-primary text-primary-foreground font-heading text-sm tracking-wider px-5 py-2.5 hover:bg-primary/90 transition-colors"
