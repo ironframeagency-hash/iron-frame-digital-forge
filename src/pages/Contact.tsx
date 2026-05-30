@@ -34,7 +34,7 @@ const Contact = () => {
             {[
               { label: "Your Name", key: "name" as const, type: "text", placeholder: "John Smith" },
               { label: "Business Name", key: "business" as const, type: "text", placeholder: "Smith Construction LLC" },
-              { label: "Phone Number", key: "phone" as const, type: "tel", placeholder: "(555) 123-4567" },
+              { label: "Phone Number", key: "phone" as const, type: "tel", placeholder: "(704) 317-2287" },
               { label: "Email Address", key: "email" as const, type: "email", placeholder: "john@smithconstruction.com" },
             ].map(({ label, key, type, placeholder }) => (
               <div key={key}>
@@ -58,10 +58,14 @@ const Contact = () => {
             </button>
           </form>
 
-          <div className="mt-12 pt-8 border-t border-border text-center">
+          <div className="mt-12 pt-8 border-t border-border text-center space-y-4">
             <div>
               <p className="font-heading text-sm tracking-wider text-foreground mb-1">EMAIL</p>
-              <p className="text-muted-foreground text-sm"><p className="text-muted-foreground text-sm">ironframeagency@gmail.com</p></p>
+              <p className="text-muted-foreground text-sm">ironframeagency@gmail.com</p>
+            </div>
+            <div>
+              <p className="font-heading text-sm tracking-wider text-foreground mb-1">PHONE</p>
+              <a href="tel:+17043172287" className="text-muted-foreground text-sm hover:text-primary transition-colors">+1 (704) 317-2287</a>
             </div>
           </div>
         </div>

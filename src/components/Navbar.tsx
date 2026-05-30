@@ -1,6 +1,9 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
+
+const PHONE_DISPLAY = "+1 (704) 317-2287";
+const PHONE_HREF = "tel:+17043172287";
 import logo from "@/assets/logo.png";
 
 const navLinks = [
@@ -34,6 +37,13 @@ const Navbar = () => {
               {link.label}
             </Link>
           ))}
+          <a
+            href={PHONE_HREF}
+            className="bg-primary text-primary-foreground font-heading text-sm tracking-wider px-5 py-2.5 hover:bg-primary/90 transition-colors inline-flex items-center gap-2"
+          >
+            <Phone size={16} />
+            {PHONE_DISPLAY}
+          </a>
           <Link
             to="/contact"
             className="bg-primary text-primary-foreground font-heading text-sm tracking-wider px-5 py-2.5 hover:bg-primary/90 transition-colors"
@@ -64,10 +74,18 @@ const Navbar = () => {
                 {link.label}
               </Link>
             ))}
+            <a
+              href={PHONE_HREF}
+              onClick={() => setOpen(false)}
+              className="bg-primary text-primary-foreground font-heading text-center tracking-wider px-5 py-3 mt-2 inline-flex items-center justify-center gap-2"
+            >
+              <Phone size={16} />
+              {PHONE_DISPLAY}
+            </a>
             <Link
               to="/contact"
               onClick={() => setOpen(false)}
-              className="bg-primary text-primary-foreground font-heading text-center tracking-wider px-5 py-3 mt-2"
+              className="bg-primary text-primary-foreground font-heading text-center tracking-wider px-5 py-3"
             >
               BOOK A MEETING
             </Link>
