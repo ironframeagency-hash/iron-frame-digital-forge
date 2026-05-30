@@ -1,6 +1,9 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
+
+const PHONE_DISPLAY = "+1 (704) 317-2287";
+const PHONE_HREF = "tel:+17043172287";
 import logo from "@/assets/logo.png";
 
 const navLinks = [
