@@ -34,7 +34,7 @@ const Contact = () => {
             {[
               { label: "Your Name", key: "name" as const, type: "text", placeholder: "John Smith" },
               { label: "Business Name", key: "business" as const, type: "text", placeholder: "Smith Construction LLC" },
-              { label: "Phone Number", key: "phone" as const, type: "tel", placeholder: "(555) 123-4567" },
+              { label: "Phone Number", key: "phone" as const, type: "tel", placeholder: "(704) 317-2287" },
               { label: "Email Address", key: "email" as const, type: "email", placeholder: "john@smithconstruction.com" },
             ].map(({ label, key, type, placeholder }) => (
               <div key={key}>
