@@ -23,8 +23,8 @@ const Footer = () => (
         </div>
         <div>
           <h4 className="font-heading text-sm tracking-widest text-foreground mb-4">CONTACT</h4>
-          <p className="text-muted-foreground text-sm">info@ironframeagency.com</p>
-          
+          <p className="text-muted-foreground text-sm">ironframeagency@gmail.com</p>
+          <a href="tel:+17043172287" className="text-muted-foreground text-sm hover:text-primary transition-colors block mt-2">+1 (704) 317-2287</a>
         </div>
       </div>
       <div className="border-t border-border mt-10 pt-6 text-center">
